@@ -1,0 +1,25 @@
+.image-gallery{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.small-img img{
+    height: 82px;
+    display: block;
+    margin: 5px 0;
+   opacity: .6;
+}
+.small-img img:hover{
+    opacity: 1;
+}
+.small-img{
+    float: left;
+}
+.main-image img{
+    height: 500px;
+}
+.main-image{
+    float: right;
+    padding: 5px;
+}
