@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+span{
+    background: url("https://cdn1.iconfinder.com/data/icons/drops-glyph-icons/120/water-drop_53-512.png");
+    background-size: cover;
+    pointer-events: none;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: animate 3s ease;
+
+}
+@keyframes animate {
+    0% {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+        filter: hue-rotate(0);
+    }
+    /* 50% {
+        transform: scale(.8);
+        opacity: .5;
+    } */
+    100% {
+        transform: translate(-50%, 101%);
+        opacity: 0;
+        filter: hue-rotate(360deg);
+    }
+
+}
