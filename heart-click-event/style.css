@@ -8,7 +8,7 @@ body{
     height: 100vh;
 }
 span{
-    background: url("https://cdn1.iconfinder.com/data/icons/drops-glyph-icons/120/water-drop_53-512.png");
+    background: url("https://cdn3.iconfinder.com/data/icons/weather-3-3/512/131-512.png");
     background-size: cover;
     pointer-events: none;
     width: 100px;
@@ -17,7 +17,7 @@ span{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    animation: animate 3s ease;
+    animation: animate 3s linear;
 
 }
 @keyframes animate {
@@ -31,9 +31,9 @@ span{
         opacity: .5;
     } */
     100% {
-        transform: translate(-50%, 101%);
+        transform: translate(-50%, 5000%);
         opacity: 0;
-        filter: hue-rotate(360deg);
+        filter: hue-rotate(720deg);
     }
 
 }

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Liter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url(https://images.pexels.com/photos/30682252/pexels-photo-30682252/free-photo-of-lone-explorer-in-vast-desert-dunes.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+    background: #141414;
+    /* background-position: center;
+    background-size: cover;
+    background-blend-mode: darken; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Liter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: all ease;
+}
+h1{
+    font-size: 48px;
+    color: rgb(227, 238, 248);
+    font-family: inherit;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+h1 span{
+    color: orangered;
+}
